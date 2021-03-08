@@ -1,0 +1,9 @@
+<mapper namespace="me.bxbc.dao.IUserDao">
+<!--    sql的唯一标示，需要namespace和id共同组成-->
+    <select id="findAll" resultType="me.bxbc.pojo.User">
+        select * from user
+    </select>
+    <select id="findByCondition" resultType="me.bxbc.pojo.User" paramterType="me.bxbc.pojo.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+</mapper>

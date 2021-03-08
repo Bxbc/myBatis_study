@@ -1,0 +1,10 @@
+<configration>
+    <dataSource>
+        <property name="driveClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///mybatis"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="350679"></property>
+    </dataSource>
+<!--    加载mapper的全路径-->
+    <mapper resource="/Users/bixi/Documents/myBatis_study/src/main/resources/UserMapper.xml"></mapper>
+</configration>
