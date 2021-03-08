@@ -1,0 +1,2 @@
+# myBatis_study
+为了学习mybatis，跟随教程尝试复现mybatis的一些基本功能
